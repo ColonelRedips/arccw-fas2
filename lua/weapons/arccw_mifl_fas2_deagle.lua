@@ -2,7 +2,7 @@ SWEP.Base = "arccw_base"
 SWEP.Spawnable = true
 SWEP.Category = "ArcCW - FA:S2"
 SWEP.AdminOnly = false
-SWEP.PrintName = "Black Talon"
+SWEP.PrintName = "Silver Talon"
 SWEP.TrueName = "Desert Eagle"
 SWEP.Trivia_Class = "Pistol"
 SWEP.Trivia_Desc = "Large caliber magnum pistol with an imposing look. Intended for hunting, but there is no prey more dangerous than men."
@@ -65,7 +65,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 2
 SWEP.ShellRotateAngle = Angle(0, 0, -40)
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -74,8 +74,8 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.34
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.875, -5, 1.65),
-    Ang = Angle(0.3, 0, 0),
+    Pos = Vector(-4.85, -3.88, 1.55),
+    Ang = Angle(0.6, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -137,8 +137,8 @@ SWEP.AttachmentElements = {
             },
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.875, -8, -0.08),
-            Ang = Angle(0.2, 0, 0),
+            Pos = Vector(-4.85, -6, -0.1),
+            Ang = Angle(0.45, 0, 0),
             Magnification = 1.1,
         },
     },

@@ -27,7 +27,7 @@ SWEP.ViewModel = "models/weapons/arccw/mifl/fas2/c_minimi.mdl"
 SWEP.WorldModel = "models/weapons/arccw/mifl/fas2/c_minimi.mdl"
 SWEP.ViewModelFOV = 60
 SWEP.WorldModelOffset = {
-    pos = Vector(-20, 8, -6),
+    pos = Vector(-19, 7.5, -8),
     ang = Angle(-10, 0, 180)
 }
 
@@ -86,7 +86,7 @@ SWEP.DistantShootSound = "weapons/arccw_mifl/fas2/m249/m249_distance_fire1.wav"
 SWEP.MuzzleEffect = "muzzleflash_1"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1
+SWEP.ShellScale = 1.25
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -114,7 +114,7 @@ SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-5.98, -11.664, 3.476),
+    Pos = Vector(-5.98, -9.5, 3.45),
     Ang = Angle(0.63, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight

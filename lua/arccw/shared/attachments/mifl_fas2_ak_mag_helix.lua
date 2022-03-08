@@ -21,7 +21,9 @@ att.Mult_Range = 0.8
 att.Mult_Recoil = 0.8
 att.Mult_RPM = 1.1
 
-att.Override_Trivia_Calibre = "5.45x39mm"
+att.Override_Trivia_Calibre = "5.7X28mm NATO"
+att.Override_ShellScale = 1.5
+att.Override_ShellModel = "models/shells/shell_57.mdl"
 att.Override_Ammo = "smg1"
 
 att.Hook_GetShootSound = function(wep, fsound)

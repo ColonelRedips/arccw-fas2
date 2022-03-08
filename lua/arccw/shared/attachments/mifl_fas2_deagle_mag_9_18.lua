@@ -20,6 +20,7 @@ att.Mult_ShootPitch = 1.2
 att.Mult_ShootVol = 0.8
 
 att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellScale = 1.3
 
 att.Override_Ammo = "pistol"
 att.Override_Trivia_Calibre = "9x19mm Parabellum"

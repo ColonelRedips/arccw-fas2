@@ -70,8 +70,9 @@ SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.4
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 SWEP.SpeedMult = 0.9
@@ -79,7 +80,7 @@ SWEP.SightedSpeedMult = 0.725
 SWEP.SightTime = 0.375
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.755, -8, 1.125),
+    Pos = Vector(-3.72, -6, 1.15),
     Ang = Angle(0, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -154,7 +155,7 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 2}
         },
         Override_IronSightStruct = {
-            Pos = Vector(-3.755, -8, 1.2),
+            Pos = Vector(-3.72, -6, 1.15),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1
         },
@@ -163,15 +164,15 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_ak_hg_an94"] = {
         VMBodygroups = {	{ind = 2, bg = 4}, {ind = 3, bg = 1}, {ind = 4, bg = 1}	},
         Override_IronSightStruct = {
-            Pos = Vector(-3.715, -8, 0.6),
-            Ang = Angle(-0.1, 0, 0),
+            Pos = Vector(-3.715, -5, 0.55),
+            Ang = Angle(-0.085, 0, 0),
             Magnification = 1.1
         },
         AttPosMods = {	[3] = {	vpos = Vector(0, 34, 3.1) }, [4] = { vpos = Vector(-21, 1.5, 0),}, [5] = { vpos = Vector(-24, 1.5, 0),},	}
     },
     ["mifl_fas2_ak_hg_12"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-3.755, -8, 0.6),
+            Pos = Vector(-3.72, -6, 0.55),
             Ang = Angle(-0.2, 0, 0),
             Magnification = 1.1
         },
@@ -211,8 +212,8 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_sd"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-3.755, -8, 0.9),
-            Ang = Angle(0.15,0, 0),
+            Pos = Vector(-3.72, -6, 0.8),
+            Ang = Angle(0.4,0, 0),
             Magnification = 1.1
         },
         VMBodygroups = {
@@ -221,7 +222,7 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_overlord"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-3.755, -8, 0),
+            Pos = Vector(-3.72, -6, -0.05),
             Ang = Angle(0.2, 0, 0),
             Magnification = 1.1
         },
@@ -435,7 +436,7 @@ function SWEP:Hook_NameChange(name)
 end
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-14, 6, -5),
+    pos = Vector(-11, 5, -5.5),
     ang = Angle(-10, 0, 180)
 }
 

@@ -23,7 +23,6 @@ att.Mult_RecoilSide = 0.5
 att.Mult_VisualRecoilMult = 0.8
 
 att.Override_Ammo = "smg1"
-att.Override_Trivia_Calibre = "Assault Rifle"
 
 att.Hook_GetShootSound = function(wep, fsound)
     if fsound == wep.ShootSound then return "weapons/arccw_mifl/fas2/m4a1/m4_fire1.wav" end

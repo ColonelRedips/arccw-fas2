@@ -10,6 +10,7 @@ att.Desc_Cons = {
 att.AutoStats = true
 att.Override_ShootWhileSprint = true
 att.Slot = "mifl_fas2_m249_hg"
+att.AddSuffix = " CQC"
 att.Mult_MoveDispersion = 3
 att.Mult_HipDispersion = 1.5
 att.Add_BarrelLength = -10
@@ -28,5 +29,11 @@ att.LHIK = true
 att.LHIK_Priority = -2
 
 att.Model = "models/weapons/arccw/mifl_atts/fas2/grip_famas_sd.mdl"
+
+att.Override_IronSightStruct = {
+    Pos = Vector(-6, -7, 3.37),
+    Ang = Angle(1, 0, 0),
+    Magnification = 1.1,
+}
 
 att.ModelOffset = Vector(0, 0.5, 0)

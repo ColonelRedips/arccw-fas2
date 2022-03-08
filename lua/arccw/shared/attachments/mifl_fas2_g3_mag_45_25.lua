@@ -21,6 +21,8 @@ att.Mult_Penetration = 0.4
 att.Mult_Range = 0.5
 att.Mult_RPM = 1.2
 att.Override_Ammo = "pistol"
+att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_Trivia_Class = "Submachine Gun"
 att.Override_Trivia_Calibre = ".45 ACP"
 
 att.Hook_GetShootSound = function(wep, fsound)

@@ -71,7 +71,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.4
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 SWEP.SpeedMult = 0.9
@@ -79,8 +79,8 @@ SWEP.SightedSpeedMult = 0.725
 SWEP.SightTime = 0.375
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.401, -10, 1.417),
-    Ang = Angle(0.203, 0, 0),
+    Pos = Vector(-4.39, -8, 1.32),
+    Ang = Angle(0.4, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -160,6 +160,11 @@ SWEP.AttachmentElements = {
         VMBodygroups = {
             {ind = 2, bg = 3}
         },
+        Override_IronSightStruct = {
+            Pos = Vector(-4.395, -8, 1.22),
+            Ang = Angle(0.75, 0, 0),
+            Magnification = 1.1
+        },
         AttPosMods = {
             [3] = {
                 vpos = Vector(0, 19.5, 1.8)
@@ -176,7 +181,7 @@ SWEP.AttachmentElements = {
             }
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.401, -10, 1.3),
+            Pos = Vector(-4.395, -8, 1.3),
             Ang = Angle(0.1, 0, 0),
             Magnification = 1.1
         },		
@@ -187,7 +192,7 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 1}
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.35, -10, 1.3),
+            Pos = Vector(-4.34, -8, 1.3),
             Ang = Angle(-0.1, 0, 0),
             Magnification = 1.1
         },
@@ -200,7 +205,7 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_ak_hg_an94"] = {
         VMBodygroups = {	{ind = 2, bg = 12}, {ind = 3, bg = 2}, {ind = 4, bg = 1}	},
         Override_IronSightStruct = {
-            Pos = Vector(-4.38, -10, 0.775),
+            Pos = Vector(-4.39, -8, 0.79),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1
         },
@@ -219,6 +224,11 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 10},
             {ind = 3, bg = 1}
         },
+        Override_IronSightStruct = {
+            Pos = Vector(-4.395, -8, 1.49),
+            Ang = Angle(-0.35, 0, 0),
+            Magnification = 1.1
+        },
         AttPosMods = {
             [3] = {
                 vpos = Vector(0, 29, 1.5)
@@ -233,8 +243,8 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_12u"] = {
         Override_IronSightStruct = {
-        Pos = Vector(-4.401, -10, 1.8),
-        Ang = Angle(-1.1, 0, 0),
+        Pos = Vector(-4.395, -8, 1.85),
+        Ang = Angle(-1.15, 0, 0),
             Magnification = 1.1
         },
         VMBodygroups = {
@@ -259,8 +269,8 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 1}
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.401, -10, 1),
-            Ang = Angle(1.5, 0, 0),
+            Pos = Vector(-4.395, -8, 0.85),
+            Ang = Angle(1.85, 0, 0),
             Magnification = 1.1
         },
         AttPosMods = {
@@ -271,8 +281,8 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_sd"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-4.401, -10, 1.3),
-            Ang = Angle(0.4, 0, 0),
+            Pos = Vector(-4.395, -8, 1.35),
+            Ang = Angle(0.3, 0, 0),
             Magnification = 1.1
         },
         VMBodygroups = {
@@ -287,8 +297,8 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_sdk"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-4.401, -10, 1.3),
-            Ang = Angle(0.4, 0, 0),
+            Pos = Vector(-4.395, -8, 0.95),
+            Ang = Angle(1.15, 0, 0),
             Magnification = 1.1
         },
         VMBodygroups = {
@@ -316,8 +326,8 @@ SWEP.AttachmentElements = {
     },
     ["mifl_fas2_ak_hg_overlord"] = {
         Override_IronSightStruct = {
-            Pos = Vector(-4.401, -10, 0.5),
-            Ang = Angle(0.2, 0, 0),
+            Pos = Vector(-4.395, -8, 0.55),
+            Ang = Angle(0.15, 0, 0),
             Magnification = 1.1
         },
         VMBodygroups = {
@@ -585,7 +595,7 @@ function SWEP:Hook_NameChange(name)
 end
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-14, 6, -5),
+    pos = Vector(-13, 5.5, -5.5),
     ang = Angle(-10, 0, 180)
 }
 

@@ -12,7 +12,7 @@ SWEP.Trivia_Calibre = ".50 BMG"
 SWEP.Trivia_Country = "United States"
 SWEP.Trivia_Year = "1982"
 
-SWEP.Slot = 2
+SWEP.Slot = 4
 
 if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
 
@@ -99,9 +99,9 @@ SWEP.BulletBones = { -- the bone that represents bullets in gun/mag
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.249, -5, 2.39),
-    Ang = Angle(0, 0, 0),
-    Magnification = 1.05,
+    Pos = Vector(-4.251, -3, 2.5),
+    Ang = Angle(-0.15, 0, 0),
+    Magnification = 1.1,
 }
 
 SWEP.HoldtypeHolstered = "passive"
@@ -166,7 +166,7 @@ SWEP.Attachments = {
         Slot = {"optic", "optic_lp", "optic_fas1_m82"}, -- what kind of attachments can fit here, can be string or table
         Bone = "M82_Body", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0, -2, 3.9), -- offset that the attachment will be relative to the bone
+            vpos = Vector(0, 1, 3.9), -- offset that the attachment will be relative to the bone
             vang = Angle(90, -90, -90),
             wpos = Vector(9, 0.739, -6.801),
             wang = Angle(-10, 0, 180)
@@ -366,5 +366,5 @@ SWEP.Animations = {
     },
 }
 
-SWEP.BipodRecoil = 0.1
-SWEP.BipodDispersion = 0.2
+SWEP.BipodRecoil = 0.8
+SWEP.BipodDispersion = 0.8

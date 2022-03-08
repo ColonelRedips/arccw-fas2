@@ -76,7 +76,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.35
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
@@ -197,11 +197,21 @@ SWEP.AttachmentElements = {
             [4] = {
                 vpos = Vector(0, 7, 0.78),
             }
-        }
+        },
+        Override_IronSightStruct = {
+            Pos = Vector(-2.856, -1, 1),
+            Ang = Angle(0.3, 0, 0),
+            Magnification = 1.1
+        },
     },
     ["mifl_fas2_g20_slide_17"] = {
         VMBodygroups = {
             {ind = 1, bg = 7},
+        },
+        Override_IronSightStruct = {
+            Pos = Vector(-2.856, -1, 1),
+            Ang = Angle(0.3, 0, 0),
+            Magnification = 1.1
         },
     },
     ["mifl_fas2_g20_slide_18c"] = {
@@ -213,7 +223,12 @@ SWEP.AttachmentElements = {
             [4] = {
                 vpos = Vector(0, 2.7, 0.78),
             }
-        }
+        },
+        Override_IronSightStruct = {
+            Pos = Vector(-2.856, -1, 1),
+            Ang = Angle(0.3, 0, 0),
+            Magnification = 1.1
+        },
     },
     ["mifl_fas2_g20_slide_c"] = {
         VMBodygroups = {
@@ -254,7 +269,12 @@ SWEP.AttachmentElements = {
             [4] = {
                 vpos = Vector(0, 5, 0.78),
             }
-        }
+        },
+        Override_IronSightStruct = {
+            Pos = Vector(-2.856, -1, 1),
+            Ang = Angle(0.3, 0, 0),
+            Magnification = 1.1
+        },
     },
 }
 

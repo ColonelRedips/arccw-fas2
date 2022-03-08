@@ -11,7 +11,10 @@ att.Slot = "mifl_fas2_m24_mag"
 
 att.Override_Ammo = "pistol"
 att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
+att.Override_ShellScale = 1.3
 att.Override_Trivia_Calibre = "9x19mm Parabellum"
+
 
 att.Mult_Damage = 0.45
 att.Mult_DamageMin = 0.3

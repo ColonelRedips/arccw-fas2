@@ -22,6 +22,7 @@ att.Mult_RecoilSide = 0.5
 att.Mult_RPM = 1.35
 
 att.Override_Ammo = "smg1"
+att.Override_ShellScale = 1.25
 
 att.Hook_GetShootSound = function(wep, fsound)
     if fsound == "weapons/arccw_mifl/fas2/ak47/ak47_fire1.wav" then return "weapons/arccw_mifl/fas2_custom/asval/556.wav" end

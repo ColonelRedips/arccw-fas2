@@ -108,8 +108,8 @@ SWEP.ProceduralIronFire = false
 SWEP.CaseBones = {}
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.071, 0, 2.6),
-    Ang = Angle(-0.05, 0, 0),
+    Pos = Vector(-4.05, 0, 2.6),
+    Ang = Angle(0, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
@@ -160,6 +160,8 @@ SWEP.AttachmentElements = {
     },
     ["b_snip"] = {
         VMBodygroups = {{ind = 2, bg = 5}},
+        Override_HoldtypeActive = "ar2",
+        Override_HoldtypeSights = "rpg"
     },	
     ["b_no"] = {
         TrueNameChange = "Baby Bull",

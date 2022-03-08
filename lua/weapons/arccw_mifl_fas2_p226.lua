@@ -76,7 +76,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_pistol"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.3
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
@@ -87,8 +87,8 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.200
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.8, -2.5, 1.881),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-3.8, -2.25, 1.8),
+    Ang = Angle(0.2, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -207,7 +207,7 @@ SWEP.AttachmentElements = {
             },
         },
         Override_IronSightStruct = {
-            Pos = Vector(-3.8, -10, 0.3),
+            Pos = Vector(-3.79, -8, 0.35),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1,
         },

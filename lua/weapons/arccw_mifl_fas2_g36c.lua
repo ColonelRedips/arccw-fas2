@@ -90,8 +90,8 @@ SWEP.SightedSpeedMult = 0.85
 SWEP.SightTime = 0.28
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.95, -8, 2.273),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-4.95, -4, 2.35),
+    Ang = Angle(-0.25, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false
@@ -145,7 +145,7 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 4}, {ind = 2, bg = 3}, {ind = 7, bg = 2},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.94, -12, 0.85),
+            Pos = Vector(-4.935, -7, 0.815),
             Ang = Angle(.6, 0, 0),
             Magnification = 1.1,
         },
@@ -160,14 +160,14 @@ SWEP.AttachmentElements = {
     },	
     ["mifl_fas2_g36_barrel_oicw"] = {
         Override_ActivePos = Vector(0, -1, -1),	
-        NameChange = "Gewehr-OICW",
+        NameChange = "Gewehr-ICWS",
         TrueNameChange = "G36 OICW",
         VMBodygroups = {
             {ind = 3, bg = 6}, {ind = 2, bg = 6}, {ind = 7, bg = 3},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.95, -15, -1.1),
-            Ang = Angle(0, 0, 0),
+            Pos = Vector(-4.96, -13, -1.1),
+            Ang = Angle(-0.3, 0, 0),
             Magnification = 1.1,
         },
         AttPosMods = {
@@ -186,7 +186,7 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 5}, {ind = 2, bg = 5},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.95, -8, 3.1),
+            Pos = Vector(-4.95, -6.5, 3.05),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1,
         },
@@ -206,8 +206,8 @@ SWEP.AttachmentElements = {
             {ind = 3, bg = 3}, {ind = 2, bg = 2}
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.95, -8, 3.099),
-            Ang = Angle(0, 0, 0),
+            Pos = Vector(-4.95, -6.5, 3.18),
+            Ang = Angle(-0.4, 0, 0),
             Magnification = 1.1,
         },
         AttPosMods = {

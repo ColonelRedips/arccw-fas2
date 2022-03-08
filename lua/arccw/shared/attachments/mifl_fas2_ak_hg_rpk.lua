@@ -18,5 +18,9 @@ att.Mult_MoveSpeed = 0.95
 att.Mult_Recoil = 0.7
 att.Mult_AccuracyMOA = 0.7
 
+att.Bipod = true
+att.Mult_BipodRecoil = 0.75
+att.Mult_BipodDispersion = 0.75
+
 att.Add_BarrelLength = 6
 att.Mult_ShootPitch = 1

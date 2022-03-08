@@ -83,7 +83,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.2
+SWEP.ShellScale = 1.25
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -93,7 +93,7 @@ SWEP.SightedSpeedMult = 0.775
 SWEP.SightTime = 0.29
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.985, -10, 1.396),
+    Pos = Vector(-3.975, -8, 1.41),
     Ang = Angle(0, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -226,7 +226,7 @@ SWEP.AttachmentElements = {
 SWEP.ExtraSightDist = 10
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-17, 5.5, -4.5),
+    pos = Vector(-15.5, 5, -4.8),
     ang = Angle(-10, 0, 180)
 }
 

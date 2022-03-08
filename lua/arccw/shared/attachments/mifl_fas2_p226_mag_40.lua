@@ -8,6 +8,7 @@ att.Desc_Cons = {
 }
 att.SortOrder = 10
 att.AutoStats = true
+att.Override_ShellScale = 1.35
 att.Slot = "mifl_fas2_p226_mag"
 
 att.Override_ClipSize = 10

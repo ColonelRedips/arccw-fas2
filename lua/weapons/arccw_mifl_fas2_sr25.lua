@@ -64,9 +64,9 @@ SWEP.MeleeMissSound = "weapons/iceaxe/iceaxe_swing1.wav"
 SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
-SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 3 -- which attachment to put the case effect on
 SWEP.SpeedMult = 0.93
@@ -74,7 +74,7 @@ SWEP.SightedSpeedMult = 0.5
 SWEP.SightTime = 0.34
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.086, -7, 1.05),
+    Pos = Vector(-4.078, -5, 1.06),
     Ang = Angle(0, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -124,7 +124,7 @@ SWEP.AttachmentElements = {
             {ind = 1, bg = 4}, {ind = 2, bg = 3},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.086, -5, 1.8),
+            Pos = Vector(-4.07, 0, 1.88),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1
         },
@@ -139,7 +139,7 @@ SWEP.AttachmentElements = {
             {ind = 1, bg = 3}, {ind = 2, bg = 4},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-4.086, -7, 1.85),
+            Pos = Vector(-4.07, -5, 1.88),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1
         },
@@ -225,7 +225,7 @@ SWEP.AttachmentElements = {
 SWEP.ExtraSightDist = 10
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-14, 5.5, -6),
+    pos = Vector(-12, 5.5, -6.5),
     ang = Angle(-10, 0, 180)
 }
 

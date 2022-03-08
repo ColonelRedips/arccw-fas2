@@ -24,6 +24,7 @@ att.Mult_RPM = 0.5
 att.Mult_AccuracyMOA = 2
 
 att.Override_Ammo = "357"
+att.Override_ShellScale = 1.8
 att.Override_Trivia_Calibre = ".50 Beowulf"
 
 att.Hook_GetShootSound = function(wep, fsound)

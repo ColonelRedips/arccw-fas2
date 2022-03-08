@@ -7,6 +7,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
+att.Override_ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 att.Slot = "mifl_fas2_m24_mag"
 
 --att.Mult_Damage = 0.9

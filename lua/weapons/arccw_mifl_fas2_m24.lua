@@ -75,9 +75,9 @@ SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_3"
-SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
 SWEP.ShellPitch = 100
-SWEP.ShellScale = 3
+SWEP.ShellScale = 1.85
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
@@ -88,8 +88,8 @@ SWEP.SightedSpeedMult = 0.5
 SWEP.SightTime = 0.35
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-5.52, -7, 1.279),
-    Ang = Angle(0, 0, 0),
+    Pos = Vector(-5.51, -6, 1.3),
+    Ang = Angle(0.1, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
     CrosshairInSights = false

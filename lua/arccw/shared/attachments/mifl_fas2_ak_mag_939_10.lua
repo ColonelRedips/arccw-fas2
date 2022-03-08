@@ -25,7 +25,7 @@ att.Mult_Range = 3
 att.Mult_RPM = 0.8
 
 att.Override_Ammo = "smg1"
-att.Override_PhysTracerProfile = 5
+att.Override_PhysTracerProfile = 7
 att.Override_TracerNum = 0
 
 att.Hook_GetShootSound = function(wep, fsound)

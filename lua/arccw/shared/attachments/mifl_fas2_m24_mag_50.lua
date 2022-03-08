@@ -21,6 +21,7 @@ att.Mult_ShootPitch = 1.25
 att.Mult_ShootVol = 1.2
 
 att.Override_Ammo = "SniperPenetratedRound"
+att.Override_ShellModel = "models/shells/shell_338mag.mdl"
 att.Override_Trivia_Calibre = ".50 BMG"
 att.AddSuffix = " .50"
 

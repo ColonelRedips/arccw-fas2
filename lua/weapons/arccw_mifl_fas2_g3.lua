@@ -69,9 +69,9 @@ SWEP.MeleeMissSound = "weapons/iceaxe/iceaxe_swing1.wav"
 SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
-SWEP.ShellModel = "models/shells/shell_556.mdl"
+SWEP.ShellModel = "models/shells/shell_762nato.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.75
+SWEP.ShellScale = 1.5
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 3 -- which attachment to put the case effect on
 SWEP.ShellRotateAngle = Angle(0, 180, -20)
@@ -80,8 +80,8 @@ SWEP.SightedSpeedMult = 0.725
 SWEP.SightTime = 0.375
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4, -4, 0.35),
-    Ang = Angle(0.85, 0.05, 0),
+    Pos = Vector(-4.005, -4, 0.36),
+    Ang = Angle(0.85, 0, 0),
     Magnification = 1.05,
     CrosshairInSights = false
 }
@@ -128,8 +128,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_psg1"] = {
         VMBodygroups = {	{ind = 1, bg = 5}	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.3),
-            Ang = Angle(0.8, 0.05, 0),
+            Pos = Vector(-4.005, -3, 0.33),
+            Ang = Angle(0.8, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -138,8 +138,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_psg2"] = {
         VMBodygroups = {	{ind = 1, bg = 6}	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.3),
-            Ang = Angle(0.8, 0.05, 0),
+            Pos = Vector(-4.005, -3, 0.43),
+            Ang = Angle(0.8, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -148,16 +148,16 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_sd"] = {
         VMBodygroups = {	{ind = 1, bg = 2}, {ind = 2, bg = 2},	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.25),
-            Ang = Angle(1.1, 0.05, 0),
+            Pos = Vector(-4, -3, 0.25),
+            Ang = Angle(1.1, 0, 0),
             Magnification = 1.05,
         }
     },
     ["mifl_fas2_g3_hg_vollmer"] = {
         VMBodygroups = {	{ind = 1, bg = 2}, {ind = 2, bg = 1},	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.3),
-            Ang = Angle(1, 0.05, 0),
+            Pos = Vector(-4, -3, 0.31),
+            Ang = Angle(1, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -166,8 +166,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_eod"] = {
         VMBodygroups = {	{ind = 1, bg = 2}, {ind = 2, bg = 3},	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.25),
-            Ang = Angle(1.1, 0.05, 0),
+            Pos = Vector(-4, -3, 0.27),
+            Ang = Angle(1.1, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -176,8 +176,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_navy"] = {
         VMBodygroups = {	{ind = 1, bg = 2}, {ind = 2, bg = 4},	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.25),
-            Ang = Angle(1.1, 0.05, 0),
+            Pos = Vector(-4.005, -3, 0.27),
+            Ang = Angle(1.1, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -186,8 +186,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_para"] = {
         VMBodygroups = {	{ind = 1, bg = 1}	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.3),
-            Ang = Angle(1, 0.05, 0),
+            Pos = Vector(-4.005, -3, 0.3),
+            Ang = Angle(1, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {
@@ -196,8 +196,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_g3_hg_k"] = {
         VMBodygroups = {	{ind = 1, bg = 3}	},
         Override_IronSightStruct = {
-            Pos = Vector(-4, -4, 0.25),
-            Ang = Angle(1.5, 0.05, 0),
+            Pos = Vector(-4.01, -3, 0.21),
+            Ang = Angle(1.5, 0, 0),
             Magnification = 1.05,
         },
         AttPosMods = {

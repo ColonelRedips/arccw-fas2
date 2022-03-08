@@ -41,11 +41,11 @@ att.ModelBodygroups = "11"
 
 att.Holosight = true
 att.HolosightMagnification = 4
-att.HolosightMagnificationMin = 4
+att.HolosightMagnificationMin = 2.5
 att.HolosightMagnificationMax = 4
 att.HolosightReticle = Material("mifl_fas2_reticle/g36.png", "mips smooth")
 att.HolosightNoFlare = true
-att.HolosightSize = 4
+att.HolosightSize = 6.5
 att.HolosightBone = "holosight"
 att.Colorable = true
 att.HolosightBlackbox = true

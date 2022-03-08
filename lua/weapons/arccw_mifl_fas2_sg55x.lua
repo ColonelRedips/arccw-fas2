@@ -72,7 +72,7 @@ SWEP.SightedSpeedMult = 0.775
 SWEP.SightTime = 0.32
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.293, -5, 1.125),
+    Pos = Vector(-3.285, -3, 1.125),
     Ang = Angle(0, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -245,7 +245,7 @@ SWEP.Hook_ModifyBodygroups = function(wep, data)
 end
 
 SWEP.WorldModelOffset = {
-    pos = Vector(-8.2, 5, -6),
+    pos = Vector(-8.2, 4.5, -6),
     ang = Angle(-10, 0, 180)
 }
 

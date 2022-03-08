@@ -1,17 +1,17 @@
 SWEP.Base = "arccw_base"
-SWEP.Spawnable = false -- this obviously has to be set to true
+SWEP.Spawnable = true -- this obviously has to be set to true
 SWEP.Category = "ArcCW - FA:S2"
-SWEP.AdminOnly = false
+SWEP.AdminOnly = true
 
 SWEP.PrintName = "Rodger 400"
-SWEP.TrueName = "Remington 870"
+SWEP.TrueName = "Model 870"
 SWEP.Trivia_Class = "Shotgun"
-SWEP.Trivia_Desc = "Cut weapon cuz i dont wanna make this and fesiug just decided nah \nWont stop me from hide it doe \n\nYou aren't supposed to see this."
-SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
+SWEP.Trivia_Desc = "A relic from a bygone era of modders. Actually I just fucked around with the code so you can mess around with it."
+SWEP.Trivia_Manufacturer = "Remington Arms"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"
-SWEP.Trivia_Country = "Italy"
-SWEP.Trivia_Year = 2006
+SWEP.Trivia_Country = "United States of America"
+SWEP.Trivia_Year = 1950
 
 if GetConVar("arccw_truenames"):GetBool() then SWEP.PrintName = SWEP.TrueName end
 
@@ -35,11 +35,11 @@ SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
 SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
 
-SWEP.PhysBulletMuzzleVelocity = 700
+SWEP.PhysBulletMuzzleVelocity = 500
 
 SWEP.Recoil = 2.2
-SWEP.RecoilSide = 1.3
-SWEP.RecoilRise = 0.8
+SWEP.RecoilSide = 2
+SWEP.RecoilRise = 1
 
 SWEP.ShotgunReload = true
 SWEP.ManualAction = true
@@ -94,7 +94,7 @@ SWEP.IronSightStruct = {
     Ang = Angle(0, 0, 0),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
-    CrosshairInSights = false
+    CrosshairInSights = true
 }
 
 SWEP.HoldtypeHolstered = "passive"

@@ -21,6 +21,7 @@ att.Mult_RPM = 1.2
 att.Mult_ShootPitch = 1.1
 
 --att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellScale = 1.65
 
 att.Override_Trivia_Calibre = ".357 Magnum"
 att.AddSuffix = " .357"

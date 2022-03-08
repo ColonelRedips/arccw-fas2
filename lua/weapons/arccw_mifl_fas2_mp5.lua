@@ -79,7 +79,7 @@ SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_mp5"
 SWEP.ShellModel = "models/shells/shell_9mm.mdl"
 SWEP.ShellPitch = 95
-SWEP.ShellScale = 1.25
+SWEP.ShellScale = 1.3
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
@@ -89,7 +89,7 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.275
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-3.945, -7, 1.848),
+    Pos = Vector(-3.942, -5, 1.81),
     Ang = Angle(0.275, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -175,7 +175,7 @@ SWEP.AttachmentElements = {
         VMBodygroups = {{ind = 1, bg = 6},{ind = 2, bg = 4},{ind = 3, bg = 4},{ind = 6, bg = 1}},
         AttPosMods = { [3] = { vpos = Vector(22.5, -1.5, 0), }, [1] = { vpos = Vector(3.5, -3.6, 0), }, [4] = { vpos = Vector(11, 0.6, 0), },},	
         Override_IronSightStruct = {
-            Pos = Vector(-3.945, -5, 0),
+            Pos = Vector(-3.942, -5, 0),
             Ang = Angle(0.25, 0, 0),
             Magnification = 1.1,
         },		
@@ -248,7 +248,7 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 2},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-3.945, -7, 1.552),
+            Pos = Vector(-3.935, -5, 1.57),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1,
         },
@@ -268,7 +268,7 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 3},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-3.945, -7, 1.552),
+            Pos = Vector(-3.941, -7, 1.5715),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1,
         },
@@ -291,7 +291,7 @@ SWEP.AttachmentElements = {
             {ind = 2, bg = 1},
         },
         Override_IronSightStruct = {
-            Pos = Vector(-3.945, -7, 1.552),
+            Pos = Vector(-3.935, -5, 1.565),
             Ang = Angle(0, 0, 0),
             Magnification = 1.1,
         },

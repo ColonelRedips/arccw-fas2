@@ -89,7 +89,7 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.275
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-4.054, -5, 1.335),
+    Pos = Vector(-4.054, -3, 1.335),
     Ang = Angle(0.275, 0, 0),
     Magnification = 1.05,
     SwitchToSound = "", -- sound that plays when switching to this sight
@@ -150,8 +150,8 @@ SWEP.AttachmentElements = {
     ["mifl_fas2_m11_rail"] = {
         VMBodygroups = {{ind = 7, bg = 1}},
         Override_IronSightStruct = {
-            Pos = Vector(-4.054, -8, 0.2),
-            Ang = Angle(0, 0, 0),
+            Pos = Vector(-4.054, -6, 0.2),
+            Ang = Angle(0.11, 0, 0),
             Magnification = 1.1
         },
     },
