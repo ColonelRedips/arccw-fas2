@@ -8,6 +8,7 @@ att.Desc_Cons = {
     "con.magcap"
 }
 att.AutoStats = true
+att.Override_ShellScale = 1.5
 att.Slot = "mifl_fas2_mp5_mag"
 
 att.Override_ClipSize = 25

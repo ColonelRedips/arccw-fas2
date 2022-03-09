@@ -23,5 +23,5 @@ att.Mult_RPM = 0.9
 
 att.Mult_ShootPitch = 2.2
 att.Add_BarrelLength = 4
-att.Override_PhysTracerProfile = 5
+att.Override_PhysTracerProfile = 7
 att.Override_TracerNum = 0
