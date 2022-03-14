@@ -31,7 +31,9 @@ att.Hook_GetShootSound = function(wep, fsound)
     if fsound == "weapons/arccw_mifl/fas2/m4a1/m4_suppressed_fire1.wav" then return "weapons/arccw_mifl/fas2_custom/g36/7sd.wav" end
 end
 
-att.Override_Trivia_Calibre = "7.62mm"
+att.Override_Trivia_Calibre = "7.62x51mm NATO"
+att.Override_ShellModel = "models/shells/shell_762nato.mdl"
+att.Override_ShellScale = 1.5
 att.Override_Trivia_Class = "Desginated Marksman Rifle"
 
 att.Override_Firemodes_Priority = 10

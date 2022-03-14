@@ -23,7 +23,7 @@ att.Mult_AccuracyMOA = 0.1
 att.Override_Num = 1
 att.Override_Ammo = "SniperPenetratedRound"
 att.Override_ShellModel = "models/shells/shell_338mag.mdl"
-att.Override_ShellScale = 1.7
+att.Override_ShellScale = 2
 att.Override_IsShotgun = false
 att.Override_IsShotgun_Priority = 1000
 

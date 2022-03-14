@@ -8,7 +8,7 @@ att.Desc_Cons = {
 }
 att.SortOrder = 8
 att.AutoStats = true
-att.Override_ShellScale = 1.9
+att.Override_ShellScale = 2
 att.Slot = "mifl_fas2_g20_mag"
 
 att.ActivateElements = {"mag_8"}

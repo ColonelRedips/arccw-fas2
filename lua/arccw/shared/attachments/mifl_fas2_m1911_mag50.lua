@@ -23,4 +23,4 @@ att.Mult_RecoilSide = 0.92
 att.Mult_VisualRecoilMult = 0.8
 
 att.Override_Trivia_Calibre = "9x19mm Parabellum"
-att.Override_ShellScale = 1.25
+att.Override_ShellScale = 1.3

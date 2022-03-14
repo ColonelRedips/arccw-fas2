@@ -214,6 +214,11 @@ SWEP.Attachments = {
         CorrectivePos = Vector(2, -2, 0),
     },
     {
+        PrintName = "Magazine",
+        Slot = {"mifl_fas2_m82_mag"},
+        DefaultAttName = "8-Round .50 BMG"
+    },
+    {
         PrintName = "Ammo Type",
         Slot = "go_ammo",
         DefaultAttName = "Standard Ammo"

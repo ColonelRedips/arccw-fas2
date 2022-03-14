@@ -25,6 +25,7 @@ att.Mult_Penetration = 0.6
 att.Mult_Range = 0.5
 att.Mult_RPM = 1.1
 att.Override_Ammo = "smg1"
+att.Override_ShellModel = "models/shells/shell_556.mdl"
 att.Override_ShellScale = 1.25
 att.Override_Trivia_Class = "Assault Rifle"
 att.Override_Trivia_Calibre = "5.56x45mm NATO"

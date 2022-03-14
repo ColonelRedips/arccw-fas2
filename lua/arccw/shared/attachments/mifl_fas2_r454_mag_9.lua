@@ -1,4 +1,4 @@
-att.PrintName = "45.ACP Cylinder"
+att.PrintName = "9x19mm Parabellum Cylinder"
 att.Icon = Material("entities/arccw_mifl_fas2_r454_mag_9.png", "mips smooth")
 att.Description = "Conversion to a very weak calibre for first time user. Exelent handling."
 att.Desc_Pros = {
@@ -19,8 +19,8 @@ att.Mult_ShootVol = 0.8
 att.Mult_ReloadTime = 0.75
 
 att.Override_Ammo = "pistol"
-att.Override_Trivia_Calibre = "45. ACP"
-att.AddSuffix = " 45"
+att.Override_Trivia_Calibre = "9x19mm Parabellum"
+att.AddSuffix = " 9mm"
 
 att.Hook_GetShootSound = function(wep, fsound)
     if fsound == wep.ShootSound then return "weapons/arccw_mifl/fas2_custom/deagle/9.wav" end

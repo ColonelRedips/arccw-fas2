@@ -70,7 +70,6 @@ SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 SWEP.MuzzleEffect = "muzzleflash_3"
 SWEP.ShellModel = "models/shells/shell_556.mdl"
-SWEP.ShellMaterial = "models/weapons/arcticcw/shell_556_steel"
 SWEP.ShellPitch = 95
 SWEP.ShellScale = 1.4
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on

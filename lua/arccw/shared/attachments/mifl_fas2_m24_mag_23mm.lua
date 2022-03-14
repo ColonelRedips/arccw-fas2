@@ -22,7 +22,7 @@ att.Override_Ammo = "buckshot"
 att.Override_Trivia_Calibre = "23mm"
 att.Override_Trivia_Class = "Shotgun"
 att.Override_ShellModel = "models/weapons/arccw/mifl/fas2/shell/23mm.mdl"
-att.Override_ShellScale = 0.9
+att.Override_ShellScale = 1
 att.AddSuffix = " 23mm"
 att.Override_IsShotgun = true
 

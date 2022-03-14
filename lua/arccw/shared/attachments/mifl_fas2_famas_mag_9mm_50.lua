@@ -25,6 +25,7 @@ att.Mult_DamageMin = 0.75
 att.Mult_ShootPitch = 1.1
 
 att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellScale = 1.3
 att.Override_Ammo = "pistol"
 att.Override_Trivia_Class = "Submachine Gun"
 att.Override_Trivia_Calibre = "9x19mm Parabellum"

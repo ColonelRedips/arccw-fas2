@@ -22,6 +22,7 @@ att.Mult_Range = 0.5
 att.Mult_RPM = 1.2
 att.Override_Ammo = "pistol"
 att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellScale = 1.4
 att.Override_Trivia_Class = "Submachine Gun"
 att.Override_Trivia_Calibre = "10mm Auto"
 

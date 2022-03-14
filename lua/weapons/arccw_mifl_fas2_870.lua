@@ -137,7 +137,7 @@ SWEP.Attachments = {
     {
         PrintName = "Optic",
         Slot = "optic",
-        Bone = "v_weapon.NOVA_PARENT",
+        Bone = "Body",
         DefaultAttName = "Iron Sights",
         Offset = {
             vpos = Vector(0, -2.6, 8),
@@ -149,17 +149,15 @@ SWEP.Attachments = {
     {
         PrintName = "Underbarrel",
         Slot = "foregrip",
-        Bone = "v_weapon.NOVA_PUMP",
+        Bone = "pump",
         Offset = {
-            vpos = Vector(0, 1.3, 1.75),
-            vang = Angle(90, 0, -90),
+            vpos = Vector(0, 25, -2),
         },
-        InstalledEles = {"ubrms"},
     },
     {
         PrintName = "Tactical",
         Slot = "tac",
-        Bone = "v_weapon.NOVA_PUMP",
+        Bone = "pump",
         Offset = {
             vpos = Vector(0.75, -0.65, 7.5),
             vang = Angle(90, 0, 0),
@@ -168,14 +166,14 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Barrel",
-        Slot = "go_nova_barrel",
+        Slot = "Body",
         DefaultAttName = "450mm Standard Barrel"
     },
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
         Slot = "muzzle",
-        Bone = "v_weapon.NOVA_PARENT",
+        Bone = "Body",
         Offset = {
             vpos = Vector(0, -1.7, 28),
             vang = Angle(90, 0, -90),
@@ -184,14 +182,14 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Magazine",
-        Slot = "go_nova_mag",
-        DefaultAttName = "4-Round 12-Gauge Tube"
+        Slot = "mifl_fas2_870_mag",
+        Bone = "mag",
+        DefaultAttName = "6-Round 12-Gauge Tube"
     },
     {
         PrintName = "Stock",
-        Slot = {"go_nova_stock", "go_stock"},
+        Slot = {"stock"},
         DefaultAttName = "Standard Stock",
-        Bone = "v_weapon.NOVA_PARENT",
         Offset = {
             vpos = Vector(0, -0.25, 1),
             vang = Angle(90, 0, -90),
@@ -204,13 +202,13 @@ SWEP.Attachments = {
     },
     {
         PrintName = "Perk",
-        Slot = {"go_perk", "perk_fas2"}
+        Slot = {"go_perk"}
     },
     {
         PrintName = "Charm",
         Slot = "charm",
         FreeSlot = true,
-        Bone = "v_weapon.NOVA_PARENT", -- relevant bone any attachments will be mostly referring to
+        Bone = "Body", -- relevant bone any attachments will be mostly referring to
         Offset = {
             vpos = Vector(0.5, -0.5, 4), -- offset that the attachment will be relative to the bone
             vang = Angle(90, 0, -90),

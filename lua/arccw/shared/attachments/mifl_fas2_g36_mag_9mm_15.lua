@@ -29,6 +29,7 @@ att.Mult_ReloadTime = 0.825
 att.Override_Ammo = "pistol"
 
 att.Override_ShellModel = "models/shells/shell_9mm.mdl"
+att.Override_ShellScale = 1.3
 
 att.Override_Trivia_Class = "Submachine Gun"
 att.Override_Trivia_Calibre = "9x19mm Parabellum"

@@ -27,6 +27,8 @@ att.Mult_SightTime = 0.9
 att.Mult_SpeedMult = 1.05
 
 att.Override_Ammo = "smg1"
+att.Override_ShellModel = "models/shells/shell_556.mdl"
+att.Override_ShellScale = 1.25
 
 att.Hook_GetShootSound = function(wep, fsound)
     if fsound == wep.ShootSound then return "weapons/arccw_mifl/fas2/m4a1/m4_fire1.wav" end

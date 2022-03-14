@@ -7,7 +7,7 @@ att.Desc_Pros = {
 att.Desc_Cons = {
 }
 att.AutoStats = true
-att.Override_ShellScale = 1.35
+att.Override_ShellScale = 1.4
 att.Slot = "mifl_fas2_mp5_mag"
 
 att.Override_ClipSize = 30 
