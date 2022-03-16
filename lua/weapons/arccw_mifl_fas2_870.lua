@@ -76,18 +76,18 @@ SWEP.MeleeHitSound = "arccw_go/knife/knife_hitwall1.wav"
 SWEP.MeleeHitNPCSound = "physics/body/body_medium_break2.wav"
 
 SWEP.MuzzleEffect = "muzzleflash_shotgun"
-SWEP.ShellModel = "models/shells/shell_12gauge.mdl"
+SWEP.ShellModel = "models/weapons/arccw/mifl/fas2/shell/buck.mdl"
 SWEP.ShellPitch = 100
 SWEP.ShellSounds = ArcCW.ShotgunShellSoundsTable
-SWEP.ShellScale = 1.5
+SWEP.ShellScale = 0.8
 SWEP.ShellRotateAngle = Angle(0, 180, 0)
 
 SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
-SWEP.SpeedMult = 0.95
-SWEP.SightedSpeedMult = 0.75
-SWEP.SightTime = 0.25
+SWEP.SpeedMult = 0.85
+SWEP.SightedSpeedMult = 0.66
+SWEP.SightTime = 0.35
 
 SWEP.IronSightStruct = {
     Pos = Vector(-2.859, -9, 1.391),
@@ -120,7 +120,12 @@ SWEP.CustomizeAng = Angle(5, 30, 30)
 
 SWEP.BarrelLength = 24
 
-SWEP.AttachmentElements = {}
+SWEP.AttachmentElements = { 
+    ["mag_cum"] = {
+        VMBodygroups = {{ind = 1, bg = 1}},
+        WMBodygroups = {{ind = 1, bg = 1}},
+    },
+}
 
 SWEP.ExtraSightDist = 10
 
@@ -140,18 +145,18 @@ SWEP.Attachments = {
         Bone = "Body",
         DefaultAttName = "Iron Sights",
         Offset = {
-            vpos = Vector(0, -2.6, 8),
-            vang = Angle(90, 0, -90),
+            vpos = Vector(-3.75, 16, -1.35),
+            vang = Angle(87, -90, -87.5),
         },
-        CorrectiveAng = Angle(0, 0, 0),
-        InstalledEles = {"rail", "nors"},
+        CorrectiveAng = Angle(0, 180, 175),
     },
     {
         PrintName = "Underbarrel",
         Slot = "foregrip",
         Bone = "pump",
         Offset = {
-            vpos = Vector(0, 25, -2),
+            vpos = Vector(-3.75, 27, -4.5),
+            vang = Angle(0, -88, 0),
         },
     },
     {
@@ -159,15 +164,10 @@ SWEP.Attachments = {
         Slot = "tac",
         Bone = "pump",
         Offset = {
-            vpos = Vector(0.75, -0.65, 7.5),
-            vang = Angle(90, 0, 0),
+            vpos = Vector(-3.75, 39.3, -4.2),
+            vang = Angle(0, -90, 0),
         },
         InstalledEles = {"tacms"},
-    },
-    {
-        PrintName = "Barrel",
-        Slot = "Body",
-        DefaultAttName = "450mm Standard Barrel"
     },
     {
         PrintName = "Muzzle",
@@ -175,16 +175,10 @@ SWEP.Attachments = {
         Slot = "muzzle",
         Bone = "Body",
         Offset = {
-            vpos = Vector(0, -1.7, 28),
-            vang = Angle(90, 0, -90),
+            vpos = Vector(-3.75, 50, -2),
+            vang = Angle(-90, 90, 0),
         },
         InstalledEles = {"no_fh"}
-    },
-    {
-        PrintName = "Magazine",
-        Slot = "mifl_fas2_870_mag",
-        Bone = "mag",
-        DefaultAttName = "6-Round 12-Gauge Tube"
     },
     {
         PrintName = "Stock",
@@ -210,8 +204,8 @@ SWEP.Attachments = {
         FreeSlot = true,
         Bone = "Body", -- relevant bone any attachments will be mostly referring to
         Offset = {
-            vpos = Vector(0.5, -0.5, 4), -- offset that the attachment will be relative to the bone
-            vang = Angle(90, 0, -90),
+            vpos = Vector(-3.05, 14, -3), -- offset that the attachment will be relative to the bone
+            vang = Angle(87, -85, -88),
         },
     },
 }
