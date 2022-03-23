@@ -33,7 +33,7 @@ SWEP.Penetration = 1
 SWEP.DamageType = DMG_BUCKSHOT
 SWEP.ShootEntity = nil -- entity to fire, if any
 SWEP.ChamberSize = 1 -- how many rounds can be chambered.
-SWEP.Primary.ClipSize = 7 -- DefaultClip is automatically set.
+SWEP.Primary.ClipSize = 6 -- DefaultClip is automatically set.
 
 SWEP.PhysBulletMuzzleVelocity = 500
 
@@ -63,7 +63,7 @@ SWEP.MoveDispersion = 150
 
 SWEP.Primary.Ammo = "buckshot" -- what ammo type the gun uses
 
-SWEP.ShootVol = 120 -- volume of shoot sound
+SWEP.ShootVol = 140 -- volume of shoot sound
 SWEP.ShootPitch = 100 -- pitch of shoot sound
 
 SWEP.ShootSound = "weapons/arccw_mifl/fas2/rem870/rem870_fire1.wav"
@@ -120,12 +120,7 @@ SWEP.CustomizeAng = Angle(5, 30, 30)
 
 SWEP.BarrelLength = 24
 
-SWEP.AttachmentElements = { 
-    ["mag_cum"] = {
-        VMBodygroups = {{ind = 1, bg = 1}},
-        WMBodygroups = {{ind = 1, bg = 1}},
-    },
-}
+SWEP.AttachmentElements = {}
 
 SWEP.ExtraSightDist = 10
 
@@ -155,8 +150,8 @@ SWEP.Attachments = {
         Slot = "foregrip",
         Bone = "pump",
         Offset = {
-            vpos = Vector(-3.75, 27, -4.5),
-            vang = Angle(0, -88, 0),
+            vpos = Vector(-3.73, 27, -4.5),
+            vang = Angle(2.5, -90, -2),
         },
     },
     {
@@ -172,11 +167,11 @@ SWEP.Attachments = {
     {
         PrintName = "Muzzle",
         DefaultAttName = "Standard Muzzle",
-        Slot = "muzzle",
+        Slot = {"choke", "muzzle_shotgun"},
         Bone = "Body",
         Offset = {
-            vpos = Vector(-3.75, 50, -2),
-            vang = Angle(-90, 90, 0),
+            vpos = Vector(-3.75, 42, -2.2),
+            vang = Angle(0, -90, 0),
         },
         InstalledEles = {"no_fh"}
     },

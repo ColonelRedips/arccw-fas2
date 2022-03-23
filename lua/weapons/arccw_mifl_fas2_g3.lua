@@ -199,6 +199,8 @@ SWEP.AttachmentElements = {
             Pos = Vector(-4.01, -3, 0.21),
             Ang = Angle(1.5, 0, 0),
             Magnification = 1.05,
+            Override_HoldtypeActive = "smg1",
+            Override_HoldtypeSights = "smg1"
         },
         AttPosMods = {
             [3] = {	vpos = Vector(20, -1.3, 0.8) } 	},		
