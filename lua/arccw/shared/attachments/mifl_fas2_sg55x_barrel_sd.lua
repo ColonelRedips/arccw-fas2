@@ -27,6 +27,6 @@ att.Mult_HipDispersion = 1.2
 
 att.Add_BarrelLength = 6
 
-att.Override_PhysTracerProfile = 5
+att.Override_PhysTracerProfile = 7
 
 att.Mult_RPM = 0.9
