@@ -23,8 +23,8 @@ att.Mult_Range = 1.25
 
 att.Add_BarrelLength = 6
 
-Override_PhysTracerProfile = 7
-Override_TracerNum = 0
+att.Override_PhysTracerProfile = 7
+att.Override_TracerNum = 0
 
 att.Silencer = true
 att.Override_MuzzleEffect = "muzzleflash_suppressed"

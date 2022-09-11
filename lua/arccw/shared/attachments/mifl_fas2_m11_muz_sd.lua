@@ -19,6 +19,10 @@ att.Mult_Range = 1.5
 att.Mult_SightTime = 1.5
 att.Mult_HipDispersion = 1.25
 att.Mult_AccuracyMOA = 0.5
+att.Add_BarrelLength = 7
+
+att.Override_PhysTracerProfile = 7
+att.Override_TracerNum = 0
 
 att.LHIK = true
 att.LHIK_Priority = -2

@@ -26,5 +26,7 @@ att.Mult_SightTime = 1.25
 att.Mult_HipDispersion = 1.25
 
 att.Add_BarrelLength = 4
+att.Override_PhysTracerProfile = 7
+att.Override_TracerNum = 0
 
 att.Mult_RPM = 0.9
