@@ -11,7 +11,7 @@ SWEP.Trivia_Manufacturer = "Taurus International"
 SWEP.Trivia_Calibre = ".454 Casull"
 SWEP.Trivia_Mechanism = "Double Action"
 SWEP.Trivia_Country = "Brazil"
-SWEP.Trivia_Year = "1982"
+SWEP.Trivia_Year = "1997"
 
 SWEP.Slot = 1
 
@@ -37,12 +37,12 @@ SWEP.Range = 50 -- in METRES
 SWEP.Penetration = 20
 SWEP.DamageType = DMG_BULLET
 SWEP.ShootEntity = nil -- entity to fire, if any
-SWEP.MuzzleVelocity = 900 -- projectile or phys bullet muzzle velocity
+SWEP.MuzzleVelocity = 580 -- projectile or phys bullet muzzle velocity
 -- IN M/S
 
 SWEP.CanFireUnderwater = false
 
-SWEP.PhysBulletMuzzleVelocity = 800
+SWEP.PhysBulletMuzzleVelocity = 900
 
 SWEP.TracerNum = 1 -- tracer every X
 SWEP.TracerCol = Color(255, 25, 25)
@@ -115,7 +115,7 @@ SWEP.IronSightStruct = {
 }
 
 SWEP.HoldtypeHolstered = "normal"
-SWEP.HoldtypeActive = "pistol"
+SWEP.HoldtypeActive = "revolver"
 SWEP.HoldtypeSights = "revolver"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_REVOLVER
@@ -269,6 +269,7 @@ SWEP.Animations = {
     },
     ["Reload1"] = {
         Source = "Reload1",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
@@ -278,6 +279,7 @@ SWEP.Animations = {
     },
     ["Reload2"] = {
         Source = "Reload2",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         Time = 105/30,
         LHIK = true,
         LHIKIn = 0.2,
@@ -289,6 +291,7 @@ SWEP.Animations = {
     },
     ["Reload3"] = {
         Source = "Reload3",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         Time = 120/30,
         LHIK = true,
         LHIKIn = 0.2,
@@ -301,6 +304,7 @@ SWEP.Animations = {
     },
     ["Reload4"] = {
         Source = "Reload4",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         Time = 135/30,
         LHIK = true,
         LHIKIn = 0.2,
@@ -314,6 +318,7 @@ SWEP.Animations = {
     },
     ["Reload5"] = {
         Source = "Reload5",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.1,
         LHIKOut = 0.25,
@@ -328,6 +333,7 @@ SWEP.Animations = {
 -- Nomen
     ["Reload1_nomen"] = {
         Source = "Reload1_nomen",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
@@ -337,6 +343,7 @@ SWEP.Animations = {
     },
     ["Reload2_nomen"] = {
         Source = "Reload2_nomen",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
@@ -347,6 +354,7 @@ SWEP.Animations = {
     },
     ["Reload3_nomen"] = {
         Source = "Reload3_nomen",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
@@ -358,6 +366,7 @@ SWEP.Animations = {
     },
     ["Reload4_nomen"] = {
         Source = "Reload4_nomen",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0.3,
@@ -370,6 +379,7 @@ SWEP.Animations = {
     },
     ["Reload5_nomen"] = {
         Source = "Reload5_nomen",
+        TPAnim = ACT_HL2MP_GESTURE_RELOAD_REVOLVER,
         LHIK = true,
         LHIKIn = 0.1,
         LHIKOut = 0.25,

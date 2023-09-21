@@ -37,4 +37,5 @@ att.Override_Firemodes = {
     }
 }
 
-att.Override_HoldtypeActive = "ar2"
+att.Override_HoldtypeActive = "smg"
+att.Override_HoldtypeSights = "smg"

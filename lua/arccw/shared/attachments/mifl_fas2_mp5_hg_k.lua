@@ -26,6 +26,8 @@ att.Mult_Range = 0.7
 att.Add_BarrelLength = -6
 
 att.Mult_ShootPitch = 0.8
+att.Override_HoldtypeActive = "smg"
+att.Override_HoldtypeSights = "smg"
 att.LHIK = true
 att.LHIK_Priority = -2
 att.Model = "models/weapons/arccw/mifl_atts/fas2/grip_famas_felin.mdl"

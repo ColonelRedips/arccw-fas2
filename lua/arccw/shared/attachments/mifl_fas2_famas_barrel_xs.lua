@@ -27,6 +27,8 @@ att.Mult_SpeedMult = 1.15
 att.Mult_SightedSpeedMult = 1.25
 
 att.Mult_ShootPitch = 1.3
+att.Override_HoldtypeActive = "revolver"
+att.Override_HoldtypeSights = "pistol"
 
 att.LHIK = true
 att.LHIK_Priority = -2

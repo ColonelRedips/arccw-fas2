@@ -29,6 +29,8 @@ att.Mult_MoveDispersion = 1.5
 
 att.Add_BarrelLength = -8
 att.Mult_ShootPitch = 1
+att.Override_HoldtypeActive = "pistol"
+att.Override_HoldtypeSights = "pistol"
 
 att.LHIK = true
 att.LHIK_Priority = -2

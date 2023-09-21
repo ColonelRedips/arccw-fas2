@@ -186,7 +186,7 @@ SWEP.Attachments = {
             vang = Angle(0, 0, -90),
         },
         CorrectiveAng = Angle(0, 0, 0),
-        CorrectivePos = Vector(-0.095, 0, 0.49),
+        CorrectivePos = Vector(0, 0, 0),
         InstalledEles = {"rail", "nors"},
     },
     {
