@@ -10,7 +10,7 @@ SWEP.Trivia_Manufacturer = "Heckler & Koch"
 SWEP.Trivia_Calibre = "7.62x51mm NATO"
 SWEP.Trivia_Mechanism = "Roller-delayed blowback"
 SWEP.Trivia_Country = "Germany"
-SWEP.Trivia_Year = 1950
+SWEP.Trivia_Year = 1959
 
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName

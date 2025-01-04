@@ -10,7 +10,7 @@ SWEP.Trivia_Manufacturer = "Benelli Armi SpA"
 SWEP.Trivia_Calibre = "12 Gauge"
 SWEP.Trivia_Mechanism = "Pump-Action"
 SWEP.Trivia_Country = "Italy"
-SWEP.Trivia_Year = 2006
+SWEP.Trivia_Year = 1989
 
 SWEP.Slot = 2
 

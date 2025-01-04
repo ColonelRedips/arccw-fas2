@@ -13,7 +13,7 @@ att.Desc_Neutrals = {
 att.AutoStats = true
 att.Slot = "mifl_fas2_g36c_hg"
 
-att.Mult_MoveSpeed = 0.85
+att.Mult_MoveSpeed = 0.80
 
 att.Mult_SightTime = 1.5
 att.Mult_Recoil = 0.8
@@ -47,7 +47,7 @@ att.UBGL_Fire = function(wep, ubgl)
 
     wep:PlayAnimation("fire")
 
-    wep:FireRocket("arccw_gl_m79_he", 3000 * ArcCW.HUToM)
+    wep:FireRocket("arccw_gl_m79_he", 100000 * ArcCW.HUToM)
 
     wep:EmitSound("weapons/grenade_launcher1.wav", 100)
 

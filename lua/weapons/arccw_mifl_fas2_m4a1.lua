@@ -10,7 +10,7 @@ SWEP.Trivia_Manufacturer = "Colt"
 SWEP.Trivia_Calibre = "5.56x45mm NATO"
 SWEP.Trivia_Mechanism = "Gas-Operated"
 SWEP.Trivia_Country = "USA"
-SWEP.Trivia_Year = 1993
+SWEP.Trivia_Year = 1994
 
 if GetConVar("arccw_truenames"):GetBool() then
     SWEP.PrintName = SWEP.TrueName
